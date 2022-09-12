@@ -1,0 +1,565 @@
+[2022-09-11 22:52:16.952 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 22:52:17.450 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Role" AS "r"
+][2022-09-11 22:52:17.473 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 22:52:17.632 +03:00 [INF] User profile is available. Using 'C:\Users\96278\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2022-09-11 22:52:17.830 +03:00 [INF] Now listening on: https://localhost:7132
+][2022-09-11 22:52:17.831 +03:00 [INF] Now listening on: http://localhost:5132
+][2022-09-11 22:52:17.838 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+][2022-09-11 22:52:17.840 +03:00 [INF] Hosting environment: Development
+][2022-09-11 22:52:17.842 +03:00 [INF] Content root path: D:\test\Kaizen Task\Kaizen Task\
+][2022-09-11 22:52:18.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+][2022-09-11 22:52:18.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+][2022-09-11 22:52:18.687 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 7.0834ms
+][2022-09-11 22:52:18.695 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 448.6738ms
+][2022-09-11 22:52:18.804 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+][2022-09-11 22:52:18.938 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.1270ms
+][2022-09-11 22:55:03.397 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 22:55:03.894 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Role" AS "r"
+][2022-09-11 22:55:03.917 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 22:55:04.062 +03:00 [INF] User profile is available. Using 'C:\Users\96278\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2022-09-11 22:55:04.249 +03:00 [INF] Now listening on: https://localhost:7132
+][2022-09-11 22:55:04.250 +03:00 [INF] Now listening on: http://localhost:5132
+][2022-09-11 22:55:04.257 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+][2022-09-11 22:55:04.259 +03:00 [INF] Hosting environment: Development
+][2022-09-11 22:55:04.262 +03:00 [INF] Content root path: D:\test\Kaizen Task\Kaizen Task\
+][2022-09-11 22:55:04.636 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+][2022-09-11 22:55:05.094 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+][2022-09-11 22:55:05.102 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 7.8048ms
+][2022-09-11 22:55:05.105 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 472.3390ms
+][2022-09-11 22:55:05.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+][2022-09-11 22:55:05.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.2650ms
+][2022-09-11 22:55:08.764 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:55:08.853 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:08.877 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:55:08.897 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:55:08.920 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 36.5355ms
+][2022-09-11 22:55:08.920 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:08.923 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 158.4676ms
+][2022-09-11 22:55:46.205 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:55:46.206 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:46.207 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:55:46.207 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:55:46.207 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 0.6233ms
+][2022-09-11 22:55:46.207 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:46.207 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 2.7543ms
+][2022-09-11 22:55:48.786 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:55:48.790 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:48.790 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:55:48.792 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:55:48.792 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 1.3859ms
+][2022-09-11 22:55:48.792 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:48.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 5.9944ms
+][2022-09-11 22:55:49.270 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:55:49.270 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:49.270 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:55:49.271 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:55:49.271 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 0.3732ms
+][2022-09-11 22:55:49.271 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:49.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 0.7137ms
+][2022-09-11 22:55:49.457 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:55:49.458 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:49.458 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:55:49.458 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:55:49.458 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 0.5028ms
+][2022-09-11 22:55:49.458 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:49.458 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 0.8831ms
+][2022-09-11 22:55:49.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:55:49.611 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:49.611 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:55:49.611 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:55:49.611 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 0.3481ms
+][2022-09-11 22:55:49.611 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:55:49.611 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 0.6871ms
+][2022-09-11 22:56:58.566 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 22:56:59.007 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Role" AS "r"
+][2022-09-11 22:56:59.027 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 22:56:59.180 +03:00 [INF] User profile is available. Using 'C:\Users\96278\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2022-09-11 22:56:59.370 +03:00 [INF] Now listening on: https://localhost:7132
+][2022-09-11 22:56:59.372 +03:00 [INF] Now listening on: http://localhost:5132
+][2022-09-11 22:56:59.379 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+][2022-09-11 22:56:59.382 +03:00 [INF] Hosting environment: Development
+][2022-09-11 22:56:59.384 +03:00 [INF] Content root path: D:\test\Kaizen Task\Kaizen Task\
+][2022-09-11 22:56:59.925 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+][2022-09-11 22:57:00.369 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+][2022-09-11 22:57:00.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 11.4755ms
+][2022-09-11 22:57:00.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 470.0841ms
+][2022-09-11 22:57:00.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+][2022-09-11 22:57:00.634 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.6784ms
+][2022-09-11 22:57:03.755 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:57:03.859 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:57:03.879 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:57:03.894 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:57:03.918 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 32.0443ms
+][2022-09-11 22:57:03.919 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:57:03.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 167.6676ms
+][2022-09-11 22:57:14.978 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 22:57:15.424 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Role" AS "r"
+][2022-09-11 22:57:15.444 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 22:57:15.590 +03:00 [INF] User profile is available. Using 'C:\Users\96278\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2022-09-11 22:57:15.784 +03:00 [INF] Now listening on: https://localhost:7132
+][2022-09-11 22:57:15.786 +03:00 [INF] Now listening on: http://localhost:5132
+][2022-09-11 22:57:15.796 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+][2022-09-11 22:57:15.799 +03:00 [INF] Hosting environment: Development
+][2022-09-11 22:57:15.800 +03:00 [INF] Content root path: D:\test\Kaizen Task\Kaizen Task\
+][2022-09-11 22:57:16.246 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+][2022-09-11 22:57:16.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+][2022-09-11 22:57:16.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 13.9416ms
+][2022-09-11 22:57:16.675 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 431.1451ms
+][2022-09-11 22:57:16.778 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+][2022-09-11 22:57:16.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.4734ms
+][2022-09-11 22:57:20.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:57:20.576 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:57:20.593 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:57:20.609 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:57:20.635 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 35.2212ms
+][2022-09-11 22:57:20.635 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:57:20.639 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 139.5026ms
+][2022-09-11 22:58:03.425 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 22:58:03.890 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Role" AS "r"
+][2022-09-11 22:58:03.916 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 22:58:04.057 +03:00 [INF] User profile is available. Using 'C:\Users\96278\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2022-09-11 22:58:04.253 +03:00 [INF] Now listening on: https://localhost:7132
+][2022-09-11 22:58:04.255 +03:00 [INF] Now listening on: http://localhost:5132
+][2022-09-11 22:58:04.262 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+][2022-09-11 22:58:04.264 +03:00 [INF] Hosting environment: Development
+][2022-09-11 22:58:04.267 +03:00 [INF] Content root path: D:\test\Kaizen Task\Kaizen Task\
+][2022-09-11 22:58:04.739 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+][2022-09-11 22:58:05.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+][2022-09-11 22:58:05.194 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 11.5179ms
+][2022-09-11 22:58:05.196 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 462.2701ms
+][2022-09-11 22:58:05.329 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+][2022-09-11 22:58:05.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.0998ms
+][2022-09-11 22:58:18.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:58:18.562 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:58:18.591 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:58:18.606 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:58:18.635 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 37.0678ms
+][2022-09-11 22:58:18.636 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:58:18.638 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 184.5362ms
+][2022-09-11 22:59:36.538 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 22:59:36.996 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Role" AS "r"
+][2022-09-11 22:59:37.020 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 22:59:37.183 +03:00 [INF] User profile is available. Using 'C:\Users\96278\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2022-09-11 22:59:37.384 +03:00 [INF] Now listening on: https://localhost:7132
+][2022-09-11 22:59:37.387 +03:00 [INF] Now listening on: http://localhost:5132
+][2022-09-11 22:59:37.398 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+][2022-09-11 22:59:37.402 +03:00 [INF] Hosting environment: Development
+][2022-09-11 22:59:37.405 +03:00 [INF] Content root path: D:\test\Kaizen Task\Kaizen Task\
+][2022-09-11 22:59:37.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+][2022-09-11 22:59:38.087 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+][2022-09-11 22:59:38.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 418.8248ms
+][2022-09-11 22:59:38.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 5.8312ms
+][2022-09-11 22:59:38.232 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+][2022-09-11 22:59:38.368 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.0312ms
+][2022-09-11 22:59:42.088 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 22:59:42.186 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:59:42.208 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 22:59:42.221 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Text.StringBuilder, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 22:59:42.250 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 35.1597ms
+][2022-09-11 22:59:42.250 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 22:59:42.252 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 163.9532ms
+][2022-09-11 23:01:02.647 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:01:03.077 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Role" AS "r"
+][2022-09-11 23:01:03.108 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 23:01:03.237 +03:00 [INF] User profile is available. Using 'C:\Users\96278\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2022-09-11 23:01:03.422 +03:00 [INF] Now listening on: https://localhost:7132
+][2022-09-11 23:01:03.423 +03:00 [INF] Now listening on: http://localhost:5132
+][2022-09-11 23:01:03.430 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+][2022-09-11 23:01:03.433 +03:00 [INF] Hosting environment: Development
+][2022-09-11 23:01:03.435 +03:00 [INF] Content root path: D:\test\Kaizen Task\Kaizen Task\
+][2022-09-11 23:01:04.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+][2022-09-11 23:01:04.476 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+][2022-09-11 23:01:04.485 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 7.1925ms
+][2022-09-11 23:01:04.487 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 418.8463ms
+][2022-09-11 23:01:04.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+][2022-09-11 23:01:04.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.8183ms
+][2022-09-11 23:01:25.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 23:01:26.092 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:01:26.110 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:01:26.125 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:01:26.149 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 33.7274ms
+][2022-09-11 23:01:26.150 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:01:26.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 164.3293ms
+][2022-09-11 23:04:32.118 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:04:32.594 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Role" AS "r"
+][2022-09-11 23:04:32.615 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 23:04:32.763 +03:00 [INF] User profile is available. Using 'C:\Users\96278\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2022-09-11 23:04:32.951 +03:00 [INF] Now listening on: https://localhost:7132
+][2022-09-11 23:04:32.952 +03:00 [INF] Now listening on: http://localhost:5132
+][2022-09-11 23:04:32.960 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+][2022-09-11 23:04:32.963 +03:00 [INF] Hosting environment: Development
+][2022-09-11 23:04:32.965 +03:00 [INF] Content root path: D:\test\Kaizen Task\Kaizen Task\
+][2022-09-11 23:04:33.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+][2022-09-11 23:04:33.723 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+][2022-09-11 23:04:33.732 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 7.8614ms
+][2022-09-11 23:04:33.736 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 423.2095ms
+][2022-09-11 23:04:33.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+][2022-09-11 23:04:34.012 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.3992ms
+][2022-09-11 23:04:39.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 23:04:39.872 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:04:39.896 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:04:39.917 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:04:39.946 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 42.0332ms
+][2022-09-11 23:04:39.947 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:04:39.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 175.8468ms
+][2022-09-11 23:05:37.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - -
+][2022-09-11 23:05:37.473 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:05:37.473 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:06:38.594 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:06:38.603 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 61130.0716ms
+][2022-09-11 23:06:38.607 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:06:38.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs - - - 200 - application/json;+charset=utf-8 61138.7538ms
+][2022-09-11 23:17:15.035 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/auth/Login - -
+][2022-09-11 23:17:15.048 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:15.053 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/auth/Login - - - 204 - - 17.9938ms
+][2022-09-11 23:17:15.055 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/auth/Login application/json 79
+][2022-09-11 23:17:15.056 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:15.056 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AuthController.Login (Kaizen Task)'
+][2022-09-11 23:17:15.073 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ModelsRepository.Models.UserLogin) on controller Kaizen_Task.Controllers.AuthController (Kaizen Task).
+][2022-09-11 23:17:15.229 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:15.435 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[@__user_username_0='?' (Size = 25), @__user_password_1='?' (Size = 25)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Active", "u"."Email", "u"."FullName", "u"."Password", "u"."Role"
+FROM "User" AS "u"
+WHERE "u"."Email" = @__user_username_0 AND "u"."Password" = @__user_password_1
+LIMIT 1
+][2022-09-11 23:17:15.924 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:15.925 +03:00 [INF] Executed action Kaizen_Task.Controllers.AuthController.Login (Kaizen Task) in 852.2474ms
+][2022-09-11 23:17:15.925 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AuthController.Login (Kaizen Task)'
+][2022-09-11 23:17:15.926 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/auth/Login application/json 79 - 200 - application/json;+charset=utf-8 871.2521ms
+][2022-09-11 23:17:16.082 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 - -
+][2022-09-11 23:17:16.082 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:16.082 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 - - - 204 - - 0.2599ms
+][2022-09-11 23:17:16.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:16.182 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+][2022-09-11 23:17:16.185 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+][2022-09-11 23:17:16.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 application/json - - 403 0 - 101.3813ms
+][2022-09-11 23:17:18.484 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 - -
+][2022-09-11 23:17:18.485 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:18.485 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 - - - 204 - - 1.0940ms
+][2022-09-11 23:17:18.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:18.494 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:18.495 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:17:18.497 +03:00 [INF] Route matched with {action = "GetWarehouses", controller = "Warehouse"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetWarehouses(Int32, Int32) on controller Kaizen_Task.Controllers.WarehouseController (Kaizen Task).
+][2022-09-11 23:17:18.519 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:18.567 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Warehouse" AS "w"
+][2022-09-11 23:17:18.592 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+][2022-09-11 23:17:18.597 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+][2022-09-11 23:17:18.603 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "w"."Id", "w"."Address", "w"."City", "w"."Country", "w"."Name"
+FROM "Warehouse" AS "w"
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:17:18.622 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType8`2[[System.Collections.Generic.List`1[[ModelsRepository.Models.Warehouse, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:18.631 +03:00 [INF] Executed action Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task) in 134.0795ms
+][2022-09-11 23:17:18.631 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:17:18.631 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 142.8273ms
+][2022-09-11 23:17:19.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:19.613 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+][2022-09-11 23:17:19.613 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+][2022-09-11 23:17:19.613 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 application/json - - 403 0 - 1.1666ms
+][2022-09-11 23:17:19.999 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 - -
+][2022-09-11 23:17:19.999 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:19.999 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 - - - 204 - - 0.5168ms
+][2022-09-11 23:17:20.001 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:20.002 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:20.002 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.UserContraller.GetUsers (Kaizen Task)'
+][2022-09-11 23:17:20.003 +03:00 [INF] Route matched with {action = "GetUsers", controller = "UserContraller"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers(Int32, Int32) on controller Kaizen_Task.Controllers.UserContraller (Kaizen Task).
+][2022-09-11 23:17:20.006 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:20.011 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 23:17:20.014 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+][2022-09-11 23:17:20.016 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+][2022-09-11 23:17:20.020 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Active", "u"."Email", "u"."FullName", "u"."Password", "u"."Role"
+FROM "User" AS "u"
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:17:20.020 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`2[[System.Collections.Generic.List`1[[ModelsRepository.Models.User, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:20.032 +03:00 [INF] Executed action Kaizen_Task.Controllers.UserContraller.GetUsers (Kaizen Task) in 28.8653ms
+][2022-09-11 23:17:20.032 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.UserContraller.GetUsers (Kaizen Task)'
+][2022-09-11 23:17:20.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 31.0208ms
+][2022-09-11 23:17:20.814 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:20.814 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+][2022-09-11 23:17:20.814 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+][2022-09-11 23:17:20.814 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 application/json - - 403 0 - 0.4664ms
+][2022-09-11 23:17:21.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:21.440 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:21.440 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:17:21.440 +03:00 [INF] Route matched with {action = "GetWarehouses", controller = "Warehouse"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetWarehouses(Int32, Int32) on controller Kaizen_Task.Controllers.WarehouseController (Kaizen Task).
+][2022-09-11 23:17:21.445 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:21.449 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Warehouse" AS "w"
+][2022-09-11 23:17:21.451 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "w"."Id", "w"."Address", "w"."City", "w"."Country", "w"."Name"
+FROM "Warehouse" AS "w"
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:17:21.451 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType8`2[[System.Collections.Generic.List`1[[ModelsRepository.Models.Warehouse, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:21.451 +03:00 [INF] Executed action Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task) in 11.258ms
+][2022-09-11 23:17:21.451 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:17:21.451 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 12.0681ms
+][2022-09-11 23:17:27.916 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 - -
+][2022-09-11 23:17:27.916 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:27.917 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 - - - 204 - - 0.4316ms
+][2022-09-11 23:17:27.918 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:27.919 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:27.919 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.UserContraller.GetUsers (Kaizen Task)'
+][2022-09-11 23:17:27.919 +03:00 [INF] Route matched with {action = "GetUsers", controller = "UserContraller"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers(Int32, Int32) on controller Kaizen_Task.Controllers.UserContraller (Kaizen Task).
+][2022-09-11 23:17:27.922 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:27.928 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 23:17:27.932 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Active", "u"."Email", "u"."FullName", "u"."Password", "u"."Role"
+FROM "User" AS "u"
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:17:27.932 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`2[[System.Collections.Generic.List`1[[ModelsRepository.Models.User, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:27.932 +03:00 [INF] Executed action Kaizen_Task.Controllers.UserContraller.GetUsers (Kaizen Task) in 13.1968ms
+][2022-09-11 23:17:27.932 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.UserContraller.GetUsers (Kaizen Task)'
+][2022-09-11 23:17:27.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 14.0148ms
+][2022-09-11 23:17:39.632 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/auth/Login - -
+][2022-09-11 23:17:39.633 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:39.633 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/auth/Login - - - 204 - - 0.6005ms
+][2022-09-11 23:17:39.634 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/auth/Login application/json 61
+][2022-09-11 23:17:39.634 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:39.634 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AuthController.Login (Kaizen Task)'
+][2022-09-11 23:17:39.635 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ModelsRepository.Models.UserLogin) on controller Kaizen_Task.Controllers.AuthController (Kaizen Task).
+][2022-09-11 23:17:39.639 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:39.644 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__user_username_0='?' (Size = 24), @__user_password_1='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Active", "u"."Email", "u"."FullName", "u"."Password", "u"."Role"
+FROM "User" AS "u"
+WHERE "u"."Email" = @__user_username_0 AND "u"."Password" = @__user_password_1
+LIMIT 1
+][2022-09-11 23:17:39.644 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:39.645 +03:00 [INF] Executed action Kaizen_Task.Controllers.AuthController.Login (Kaizen Task) in 9.9354ms
+][2022-09-11 23:17:39.645 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AuthController.Login (Kaizen Task)'
+][2022-09-11 23:17:39.645 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/auth/Login application/json 61 - 200 - application/json;+charset=utf-8 10.2908ms
+][2022-09-11 23:17:39.794 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 - -
+][2022-09-11 23:17:39.794 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:39.794 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 - - - 204 - - 0.2700ms
+][2022-09-11 23:17:39.795 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:39.796 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:39.796 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:17:39.798 +03:00 [INF] Route matched with {action = "GetWarehouses", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetWarehouses(Int32, Int32) on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:17:39.806 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:39.812 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Warehouse" AS "w"
+][2022-09-11 23:17:39.813 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "w"."Id", "w"."Address", "w"."City", "w"."Country", "w"."Name"
+FROM "Warehouse" AS "w"
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:17:39.814 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Collections.Generic.List`1[[ModelsRepository.Models.Warehouse, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:39.815 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.GetWarehouses (Kaizen Task) in 16.2765ms
+][2022-09-11 23:17:39.815 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:17:39.815 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/Warehouses/Get?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 19.6246ms
+][2022-09-11 23:17:42.116 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 - -
+][2022-09-11 23:17:42.116 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:42.116 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 - - - 204 - - 0.6135ms
+][2022-09-11 23:17:42.118 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:42.118 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:42.118 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.UserContraller.GetUsers (Kaizen Task)'
+][2022-09-11 23:17:42.118 +03:00 [INF] Route matched with {action = "GetUsers", controller = "UserContraller"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers(Int32, Int32) on controller Kaizen_Task.Controllers.UserContraller (Kaizen Task).
+][2022-09-11 23:17:42.122 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:42.126 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 23:17:42.129 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Active", "u"."Email", "u"."FullName", "u"."Password", "u"."Role"
+FROM "User" AS "u"
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:17:42.130 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`2[[System.Collections.Generic.List`1[[ModelsRepository.Models.User, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:42.130 +03:00 [INF] Executed action Kaizen_Task.Controllers.UserContraller.GetUsers (Kaizen Task) in 11.5824ms
+][2022-09-11 23:17:42.130 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.UserContraller.GetUsers (Kaizen Task)'
+][2022-09-11 23:17:42.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/user/GetUsers?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 12.2082ms
+][2022-09-11 23:17:43.273 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/admin/Items/Get?page=0&pageSize=10 - -
+][2022-09-11 23:17:43.273 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:43.273 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/admin/Items/Get?page=0&pageSize=10 - - - 204 - - 0.3855ms
+][2022-09-11 23:17:43.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/Items/Get?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:43.275 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:43.276 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.GetItems (Kaizen Task)'
+][2022-09-11 23:17:43.277 +03:00 [INF] Route matched with {action = "GetItems", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetItems(Int32, Int32, Int32) on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:17:43.281 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:43.294 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Item" AS "i"
+][2022-09-11 23:17:43.340 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."Id", "i"."Cost_Price", "i"."MSRP_Price", "i"."Name", "i"."Qty", "i"."SKU_Code", "i"."WarehouseId"
+FROM "Item" AS "i"
+ORDER BY "i"."Qty" DESC
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:17:43.375 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.List`1[[ModelsRepository.Models.Item, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:43.396 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.GetItems (Kaizen Task) in 119.0854ms
+][2022-09-11 23:17:43.396 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.GetItems (Kaizen Task)'
+][2022-09-11 23:17:43.397 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/Items/Get?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 121.6240ms
+][2022-09-11 23:17:53.329 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 - -
+][2022-09-11 23:17:53.329 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:53.330 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 - - - 204 - - 0.6691ms
+][2022-09-11 23:17:53.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:53.332 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:53.332 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:17:53.332 +03:00 [INF] Route matched with {action = "GetWarehouses", controller = "Warehouse"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetWarehouses(Int32, Int32) on controller Kaizen_Task.Controllers.WarehouseController (Kaizen Task).
+][2022-09-11 23:17:53.337 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:53.342 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Warehouse" AS "w"
+][2022-09-11 23:17:53.346 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "w"."Id", "w"."Address", "w"."City", "w"."Country", "w"."Name"
+FROM "Warehouse" AS "w"
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:17:53.347 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType8`2[[System.Collections.Generic.List`1[[ModelsRepository.Models.Warehouse, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:53.347 +03:00 [INF] Executed action Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task) in 15.0614ms
+][2022-09-11 23:17:53.347 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:17:53.347 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 15.8371ms
+][2022-09-11 23:17:53.747 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/admin/Items/Get?page=0&pageSize=10 - -
+][2022-09-11 23:17:53.747 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:53.747 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/admin/Items/Get?page=0&pageSize=10 - - - 204 - - 0.5479ms
+][2022-09-11 23:17:53.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/Items/Get?page=0&pageSize=10 application/json -
+][2022-09-11 23:17:53.751 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:17:53.751 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.GetItems (Kaizen Task)'
+][2022-09-11 23:17:53.751 +03:00 [INF] Route matched with {action = "GetItems", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetItems(Int32, Int32, Int32) on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:17:53.758 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:17:53.764 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Item" AS "i"
+][2022-09-11 23:17:53.774 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."Id", "i"."Cost_Price", "i"."MSRP_Price", "i"."Name", "i"."Qty", "i"."SKU_Code", "i"."WarehouseId"
+FROM "Item" AS "i"
+ORDER BY "i"."Qty" DESC
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:17:53.774 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.List`1[[ModelsRepository.Models.Item, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:17:53.774 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.GetItems (Kaizen Task) in 22.906ms
+][2022-09-11 23:17:53.775 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.GetItems (Kaizen Task)'
+][2022-09-11 23:17:53.775 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/Items/Get?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 24.5690ms
+][2022-09-11 23:18:18.966 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - -
+][2022-09-11 23:18:18.966 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:18:18.966 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - - - 204 - - 0.4816ms
+][2022-09-11 23:18:18.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json -
+][2022-09-11 23:18:18.974 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:18:18.974 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:18:18.974 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:18:24.145 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:18:24.146 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 5171.2766ms
+][2022-09-11 23:18:24.146 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:18:24.146 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 5172.0610ms
+][2022-09-11 23:19:36.875 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:19:37.438 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Role" AS "r"
+][2022-09-11 23:19:37.460 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "User" AS "u"
+][2022-09-11 23:19:37.613 +03:00 [INF] User profile is available. Using 'C:\Users\96278\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2022-09-11 23:19:37.820 +03:00 [INF] Now listening on: https://localhost:7132
+][2022-09-11 23:19:37.821 +03:00 [INF] Now listening on: http://localhost:5132
+][2022-09-11 23:19:37.829 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+][2022-09-11 23:19:37.831 +03:00 [INF] Hosting environment: Development
+][2022-09-11 23:19:37.833 +03:00 [INF] Content root path: D:\test\Kaizen Task\Kaizen Task\
+][2022-09-11 23:19:38.645 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+][2022-09-11 23:19:39.039 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+][2022-09-11 23:19:39.055 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 14.7403ms
+][2022-09-11 23:19:39.055 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 416.1172ms
+][2022-09-11 23:19:39.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+][2022-09-11 23:19:39.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.3759ms
+][2022-09-11 23:19:44.822 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 - -
+][2022-09-11 23:19:44.952 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:19:44.953 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 - - - 204 - - 131.5378ms
+][2022-09-11 23:19:44.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 application/json -
+][2022-09-11 23:19:45.147 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:19:45.150 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:19:45.171 +03:00 [INF] Route matched with {action = "GetWarehouses", controller = "Warehouse"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetWarehouses(Int32, Int32) on controller Kaizen_Task.Controllers.WarehouseController (Kaizen Task).
+][2022-09-11 23:19:45.231 +03:00 [INF] Entity Framework Core 7.0.0-preview.7.22376.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0-preview.7.22376.2' with options: MigrationsAssembly=DataAccessRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+][2022-09-11 23:19:45.235 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Warehouse" AS "w"
+][2022-09-11 23:19:45.267 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+][2022-09-11 23:19:45.270 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+][2022-09-11 23:19:45.288 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - -
+][2022-09-11 23:19:45.289 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:19:45.290 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - - - 204 - - 1.9308ms
+][2022-09-11 23:19:45.293 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json -
+][2022-09-11 23:19:45.296 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:19:45.296 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:19:45.298 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:19:45.311 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:19:45.322 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "w"."Id", "w"."Address", "w"."City", "w"."Country", "w"."Name"
+FROM "Warehouse" AS "w"
+LIMIT @__p_1 OFFSET @__p_0
+][2022-09-11 23:19:45.336 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 33.801ms
+][2022-09-11 23:19:45.337 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:19:45.340 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 46.4023ms
+][2022-09-11 23:19:45.381 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType8`2[[System.Collections.Generic.List`1[[ModelsRepository.Models.Warehouse, ModelsRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:19:45.389 +03:00 [INF] Executed action Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task) in 217.3834ms
+][2022-09-11 23:19:45.389 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.WarehouseController.GetWarehouses (Kaizen Task)'
+][2022-09-11 23:19:45.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/warehouse/GetWarehouses?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 434.1860ms
+][2022-09-11 23:20:25.146 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - -
+][2022-09-11 23:20:25.152 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:20:25.152 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - - - 204 - - 5.6809ms
+][2022-09-11 23:20:25.158 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json -
+][2022-09-11 23:20:25.158 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:20:25.158 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:20:25.158 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:20:25.160 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:20:25.161 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 2.2113ms
+][2022-09-11 23:20:25.161 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:20:25.161 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 2.9763ms
+][2022-09-11 23:20:54.237 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - -
+][2022-09-11 23:20:54.248 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:20:54.252 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - - - 204 - - 16.1510ms
+][2022-09-11 23:20:54.253 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json -
+][2022-09-11 23:20:54.254 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:20:54.254 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:20:54.254 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:20:54.254 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:20:54.254 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 0.4547ms
+][2022-09-11 23:20:54.254 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:20:54.254 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 0.9580ms
+][2022-09-11 23:21:26.722 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - -
+][2022-09-11 23:21:26.760 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:21:26.761 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 - - - 204 - - 38.6438ms
+][2022-09-11 23:21:26.763 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json -
+][2022-09-11 23:21:26.763 +03:00 [INF] CORS policy execution successful.
+][2022-09-11 23:21:26.763 +03:00 [INF] Executing endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:21:26.763 +03:00 [INF] Route matched with {action = "ReadLogs", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReadLogs() on controller Kaizen_Task.Controllers.AdminController (Kaizen Task).
+][2022-09-11 23:21:26.764 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+][2022-09-11 23:21:26.764 +03:00 [INF] Executed action Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task) in 0.6217ms
+][2022-09-11 23:21:26.764 +03:00 [INF] Executed endpoint 'Kaizen_Task.Controllers.AdminController.ReadLogs (Kaizen Task)'
+][2022-09-11 23:21:26.764 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/admin/ReadLogs?page=0&pageSize=10 application/json - - 200 - application/json;+charset=utf-8 1.5139ms
+]

@@ -1,0 +1,17 @@
+D:\test\Kaizen Task\DataAccessRepository\bin\Debug\net6.0\DataAccessRepository.deps.json
+D:\test\Kaizen Task\DataAccessRepository\bin\Debug\net6.0\DataAccessRepository.runtimeconfig.json
+D:\test\Kaizen Task\DataAccessRepository\bin\Debug\net6.0\DataAccessRepository.dll
+D:\test\Kaizen Task\DataAccessRepository\bin\Debug\net6.0\DataAccessRepository.pdb
+D:\test\Kaizen Task\DataAccessRepository\bin\Debug\net6.0\ModelsRepository.dll
+D:\test\Kaizen Task\DataAccessRepository\bin\Debug\net6.0\ModelsRepository.pdb
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\DataAccessRepository.csproj.AssemblyReference.cache
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\DataAccessRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\DataAccessRepository.AssemblyInfoInputs.cache
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\DataAccessRepository.AssemblyInfo.cs
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\DataAccessRepository.csproj.CoreCompileInputs.cache
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\DataAccessRepository.csproj.CopyComplete
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\DataAccessRepository.dll
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\refint\DataAccessRepository.dll
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\DataAccessRepository.pdb
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\DataAccessRepository.genruntimeconfig.cache
+D:\test\Kaizen Task\DataAccessRepository\obj\Debug\net6.0\ref\DataAccessRepository.dll
