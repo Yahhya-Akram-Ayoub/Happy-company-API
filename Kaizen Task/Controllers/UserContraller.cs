@@ -37,7 +37,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("GetUsers")]
-        //[Authorize]
+        [Authorize]
         public IActionResult GetUsers([FromQuery] int page, [FromQuery] int pageSize)
         {
             try
