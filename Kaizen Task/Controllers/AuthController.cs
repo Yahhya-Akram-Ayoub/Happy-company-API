@@ -58,16 +58,25 @@ namespace Kaizen_Task.Controllers
         {
             try
             {
-                User RegisterUser = _manager.Users.GetEntity((_user) => _user.Email.Equals(user.Email));
 
-                if (RegisterUser == null)
+                if (user.Id != Guid.Empty) // update user if already exist
                 {
-                    _manager.Users.Add(user);
+                    _manager.Users.Update(user);
                 }
                 else
                 {
-                    _manager.Users.Update(RegisterUser);
+                    User RegisterUser = _manager.Users.GetEntity((_user) => _user.Email.Equals(user.Email));
+
+                    if (RegisterUser == null)
+                    {
+                        _manager.Users.Add(user);
+                    }
+                    else
+                    {
+                        return BadRequest();
+                    }
                 }
+
                 _manager.Complete();
                 return Ok();
             }
@@ -75,7 +84,6 @@ namespace Kaizen_Task.Controllers
             {
                 return BadRequest();
             }
-            return BadRequest();
         }
 
         [HttpPost]

@@ -23,7 +23,6 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("Warehouses/Get")]
-        [Authorize(Roles = "Admin")]
         public IActionResult GetWarehouses([FromQuery] int page, [FromQuery] int pageSize)
         {
             try
@@ -40,7 +39,6 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("Items/Get")]
-        [Authorize(Roles = "Admin")]
         public IActionResult GetItems([FromQuery] int page, [FromQuery] int pageSize, [FromQuery] int Asc)
         {
             try
@@ -66,6 +64,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("ReadLogs")]
+        [Authorize(Roles = "Admin")]
         public IActionResult ReadLogs()
         {
             try
