@@ -53,7 +53,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpPost]
         [Route("Register")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public IActionResult Register([FromBody] User user)
         {
             try
@@ -88,7 +88,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpPost]
         [Route("ChangePassword")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public IActionResult ChangePassword([FromForm] string userId, [FromForm] string newPass, [FromForm] string confPass)
         {
             try

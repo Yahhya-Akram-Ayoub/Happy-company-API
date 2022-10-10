@@ -14,7 +14,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpPost]
         [Route("Add")]
-        [Authorize]
+         //[Authorize]
         public IActionResult AddWarehouse([FromBody] Warehouse warehouse)
         {
             try
@@ -38,7 +38,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpPost]
         [Route("item/add")]
-        [Authorize]
+         //[Authorize]
         public IActionResult AddItem([FromBody] Item item)
         {
             try
@@ -62,7 +62,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("GetWarehouses")]
-        [Authorize]
+         //[Authorize]
         public IActionResult GetWarehouses([FromQuery] int page, [FromQuery] int pageSize)
         {
             try
@@ -78,7 +78,7 @@ namespace Kaizen_Task.Controllers
         }
         [HttpGet]
         [Route("GetWarehouse")]
-        [Authorize]
+         //[Authorize]
         public IActionResult GetWarehouse([FromQuery] Int64 warehouseId)
         {
             try
@@ -94,7 +94,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("GetItems")]
-        [Authorize]
+         //[Authorize]
         public IActionResult GetItems([FromQuery] int page, [FromQuery] int pageSize, [FromQuery] int wherhouseId)
         {
             try
@@ -111,7 +111,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("GetItem")]
-        [Authorize]
+         //[Authorize]
         public IActionResult GetItem([FromQuery] Int64 itemId)
         {
             try
@@ -127,7 +127,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpPost]
         [Route("Delete")]
-        [Authorize]
+         //[Authorize]
         public IActionResult Delete([FromForm] Int64 warehouseId)
         {
             try
@@ -143,7 +143,7 @@ namespace Kaizen_Task.Controllers
         }
         [HttpPost]
         [Route("Item/Delete")]
-        [Authorize]
+         //[Authorize]
         public IActionResult DeleteItem([FromForm] Int64 itemId)
         {
             try

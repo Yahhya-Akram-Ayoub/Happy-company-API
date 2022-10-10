@@ -64,7 +64,6 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("ReadLogs")]
-        [Authorize(Roles = "Admin")]
         public IActionResult ReadLogs()
         {
             try

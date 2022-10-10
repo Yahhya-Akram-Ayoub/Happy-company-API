@@ -21,11 +21,11 @@ namespace DataAccessRepository.Context
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
 
-            //base.OnConfiguring(dbContextOptionsBuilder);
-            //var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-            //IConfigurationRoot config = builder.Build();
-            //var conString = config.GetConnectionString("HappyCompanyDB");
-            //dbContextOptionsBuilder.UseSqlite(conString);
+            base.OnConfiguring(dbContextOptionsBuilder);
+            var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            IConfigurationRoot config = builder.Build();
+            var conString = config.GetConnectionString("DefaultConnection");
+            dbContextOptionsBuilder.UseSqlServer(conString);
         }
 
         protected override void OnModelCreating(ModelBuilder builder)

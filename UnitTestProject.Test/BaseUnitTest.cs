@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using UnitTestProject.Test.MocData;
 using Xunit;
 
 namespace UnitTestProject.Test
@@ -12,7 +13,7 @@ namespace UnitTestProject.Test
     public class BaseUnitTest : IDisposable
     {
         private IConfiguration _config;
-        protected readonly DataContext _context;
+        protected readonly TestDataContext _context;
 
         public BaseUnitTest()
         {
@@ -20,8 +21,9 @@ namespace UnitTestProject.Test
 
             services.AddSingleton<IConfiguration>(Configuration);
 
+            //var options = new DbContextOptionsBuilder<DataContext>().UseSqlServer().Options;
             var options = new DbContextOptionsBuilder<DataContext>().UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()).Options;
-            _context = new DataContext(options);
+            _context = new TestDataContext(options);
             _context.Database.EnsureCreated();
         }
 

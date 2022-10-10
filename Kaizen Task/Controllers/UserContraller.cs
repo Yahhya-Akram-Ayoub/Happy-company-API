@@ -16,7 +16,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpPost]
         [Route("DeleteUser")]
-        [Authorize(Roles = "Admin")]
+               //[Authorize(Roles = "Admin")]
         public IActionResult Delete([FromForm] string userId)
         {
             try
@@ -37,7 +37,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("GetUsers")]
-        [Authorize]
+         //[Authorize]
         public IActionResult GetUsers([FromQuery] int page, [FromQuery] int pageSize)
         {
             try
@@ -54,7 +54,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("GetRoles")]
-        [Authorize(Roles = "Admin")]
+               //[Authorize(Roles = "Admin")]
         public IActionResult GetRoles()
         {
             try
@@ -71,7 +71,7 @@ namespace Kaizen_Task.Controllers
 
         [HttpGet]
         [Route("GetUser")]
-        [Authorize(Roles = "Admin")]
+               //[Authorize(Roles = "Admin")]
         public IActionResult GetUser([FromQuery] string userId)
         {
             try
